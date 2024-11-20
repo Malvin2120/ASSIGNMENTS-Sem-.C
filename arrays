@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    // Declare and initialize the 2D array
+    int scores[2][5] = {
+        {65, 92, 35, 92, 35},  // First row of the 2D array
+        {701, 84, 184, 72, 67} // Second row of the 2D array
+    };
+    printf("The elements of the scores array are:\n");
+
+    for (int i = 0; i < 2; i++) {
+
+        for (int j = 0; j < 5; j++) {
+            printf("%d ", scores[i][j]);
+        }
+        printf("\n");  
+    }
+
+    return 0;
+}
